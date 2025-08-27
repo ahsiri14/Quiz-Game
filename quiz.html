@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz App with Categories & Dark Mode</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Quiz App</h1>
+      <button id="theme-toggle" class="toggle-switch">Toggle Dark Mode</button>
+      
+
+    </header>
+    <label for="category-select">Select Category:</label>
+    <select id="category-select">
+      <option value="general">General Knowledge</option>
+      <option value="science">Science</option>
+      <option value="history">History</option>
+    </select>
+    <div class="quiz-container">
+      <div class="question">Select a category to start quiz</div>
+      <div class="options"></div>
+      <div class="result"></div>
+      <button class="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
